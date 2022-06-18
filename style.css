@@ -1,15 +1,29 @@
-.header {
-    top:20px;
+.intro {
+    display: block;
+    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 0;
+    background-color: rgb(240, 240, 240);
+}
+#intro_name {
+    width: 30%;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-top: 0;
+    margin-top: 0;
+}
+#intro_photo {
+    padding: 5px;
 }
 
-.main {
-    padding-top:100px;
+.image {
+    width: 30%;
+    float: left;
 }
-
-.posLeft {
-    margin-left:-66%;
-}
-
-.posCenter {
-    margin-left:33%;
+.cv_container {
+    width: 980px;
+    margin: 30px auto 0;
 }
